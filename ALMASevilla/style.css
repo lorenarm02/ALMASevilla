@@ -20,10 +20,13 @@ p {
 	margin: 0 0 1.5em 0;
 }
 
-img {
+img, video {
 	display: block;
 	margin: auto;
-}
+	max-width: 100%;
+	height: auto;
+  }
+  
 
 figcaption {
 	background-color: #222;
@@ -33,6 +36,9 @@ figcaption {
 	text-align: center;
 }
 
+.navbar-toggler-icon {
+	background-color: white;
+}
 
 /*cabecera*/
 #main-header {
@@ -142,3 +148,25 @@ nav ul li a:hover {
 #organismo{
 	text-align: left;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+	/* Estilos específicos para dispositivos con un ancho máximo de 600px */
+  }
+  
+  /* Estilos para tabletas */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+	/* Estilos específicos para dispositivos con un ancho mínimo de 601px y un ancho máximo de 1024px */
+  }
+  
+  /* Estilos para ordenadores de escritorio */
+  @media only screen and (min-width: 1025px) {
+	/* Estilos específicos para dispositivos con un ancho mínimo de 1025px */
+  }
+
+  .element {
+	width: 100%; /* O cualquier porcentaje adecuado */
+	max-width: 600px; /* O cualquier otro valor máximo adecuado */
+  }
+  
+  
