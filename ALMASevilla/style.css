@@ -40,6 +40,11 @@ figcaption {
 	background-color: white;
 }
 
+#titulo{
+	background-color: #999;
+	text-align: center;
+}
+
 /*cabecera*/
 #main-header {
 	background: #333;
